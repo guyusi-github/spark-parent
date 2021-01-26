@@ -31,7 +31,7 @@ object Spark02_workcount {
        }
       )
     }}
-    val array= wordToCount.collect()
+    val array= wordToCount.collect()  //执行collect时才使用执行rdd获得结果，前面是逻辑
     array.foreach(println)
    //关闭连接
     sc.stop()
