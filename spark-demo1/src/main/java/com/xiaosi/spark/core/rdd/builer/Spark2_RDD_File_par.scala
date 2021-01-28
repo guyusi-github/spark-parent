@@ -17,6 +17,7 @@ object Spark2_RDD_File_par {
     rdd.saveAsTextFile("spark-demo1/file-par1")
     //关闭环境
     sc.stop()
+    // 经过
   }
 
 }
