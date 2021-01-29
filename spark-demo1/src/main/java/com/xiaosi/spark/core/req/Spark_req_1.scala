@@ -4,7 +4,7 @@ import org.apache.spark.rdd.RDD
 import org.apache.spark.{SparkConf, SparkContext}
 
 /**
- * 系统默认的累加器  ： 累计器：分布式只写共享变量
+ * 分别统计每个品类点击的次数，下单的次数和支付的次数： 方法一
  */
 object Spark_req_1 {
 
